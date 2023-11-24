@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--Custom Style Sheet Code-->
+
+		<style>
+			.section_name {
+				background-color: red;
+				border-width: 5px;
+				border-color: black;
+				border-style: solid;
+				color: white;
+				text-align: center;
+			}
+
+			div {
+				background-color: grey;
+				color: white;
+				/* margin: 20px; */
+			}
+
+			.main_heading {
+				background-color: red;
+				border-style: double;
+				border-width: 20px;
+				border-color: black;
+				color: white;
+				text-align: center;
+				margin: 20px;
+			}
+
+			audio {
+				display: none;
+			}
+
+			a {
+				text-decoration: none;
+				color: yellow;
+			}
+
+			p {
+				text-align: center;
+			}
+
+			body {
+				background-image: url(/Images/Tile_86.png);
+			}
+
+			.footer-extend {
+				padding-bottom: 50px;
+				margin-top: 50px;
+			}
+
+			.about-me-extender {
+				margin-top: 50px;
+				padding-top: 10px;
+			}
+
+			.hidden {
+				display: none;
+			}
+		</style>
+
+		<!-- <link href="./Portfolio Project/Garris Portfolio CSS/Garris_Portfolio.css"/> -->
+
+		<!--Bootstrap CSS Code-->
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+
+		<title>Elisha Garris Front End Profile</title>
+	</head>
+
+	<!--Body Content-->
+	<body>
+		<!--Audio Source, may not need it-->
+
+		<audio controls>
+			<source src="./mp3s/SoundHelix-Song-8.mp3" type="audio/mpeg" />
+			Your browser does not support the audio element.
+		</audio>
+
+		<!--Page Title-->
+
+		<h1 class="main_heading">Profile - Elisha Garris</h1>
+
+		<!--Section Links Currently Hidden-->
+		<div class="hidden">
+			<a href="#Contact_Info">Contact Info</a> |
+			<a href="#About_Me">About Me</a> | <a href="#Skills">Skills</a>
+		</div>
+
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#About_Me">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Interests">Interests</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Education">Education</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Skills">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Contact_Info"
+								>Contact Info</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--About Me/Bio-->
+		<div class="container about-me-extender">
+			<div class="row">
+				<div class="col" id="About_Me">
+					<h1 class="section_name">About Me</h1>
+					<img
+						src="./Images/11223643_10205079758020613_8523247947398672438_n.jpg"
+						alt="A picture of me at a party"
+						class="img-fluid img-thumbnail mx-auto d-block my-3"
+					/>
+					<p>
+						I was born in Buffalo, New York, and I'm still currently
+						living here in Buffalo
+					</p>
+					<p>
+						The ideal dream job for me would be doing something in
+						game development, though I don't think I would mind too
+						much other than preproduction work. As long as I get a
+						good salary and management isn't too bad I think I could
+						do it.
+					</p>
+					<p>
+						One goal I'd like to accomplish in my lifetime would be
+						to do breakdancing windmills. I've seen a number of
+						people do them in videos, but I wanna do some myself and
+						show off a little.
+					</p>
+					<p>
+						I hope to one day progam my own game whether it just be
+						a simple browser game, or a fully fledged pc game.
+					</p>
+					<a href="https://godotengine.org/"
+						>Here's a game engine I was looking into in my spare
+						time</a
+					>
+				</div>
+			</div>
+
+			<div class="row">
+				<!--Interests-->
+				<div class="col-12 col-lg-4" id="Interests">
+					<h1 class="section_name">Interests</h1>
+					<img
+						src="./Images/everything-you-need-know-about-fitness-1440x810.jpg"
+						alt="Fitness equipment"
+						class="img-fluid img-thumbnail d-block mx-auto my-3"
+					/>
+					<ul>
+						<li>Gaming</li>
+						<li>Music Composition</li>
+						<li>Fitness</li>
+					</ul>
+					<a href="https://www.pianoscales.org/the-keyboard.html">
+						Here's a website I used to refer to for music theory
+						help
+					</a>
+				</div>
+				<!--Education-->
+				<div class="col-12 col-lg-4" id="Education">
+					<h1 class="section_name">Education</h1>
+					<img
+						src="/Images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg"
+						alt="A stock graduation photo"
+						class="img-fluid img-thumbnail d-block mx-auto my-3"
+					/>
+					<p>BFA in Animation | May 2020 | Villa Maria College</p>
+					<p>Web Development Fundementals | November 2023 | NuCamp</p>
+				</div>
+				<!--Skills-->
+				<div class="col-12 col-lg-4" id="Skills">
+					<h1 class="section_name">Skills</h1>
+					<img
+						src="/Images/pexels-krivec-ales-547117.jpg"
+						alt="An image of a work desk"
+						class="img-fluid img-thumbnail d-block mx-auto my-3"
+					/>
+					<ul>
+						<li>Communication</li>
+						<li>Leadership</li>
+						<li>Self-Management</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--Footer-->
+
+		<footer>
+			<!--Contact Info-->
+			<div class="footer-extend" id="Contact_Info">
+				<h1 class="section_name">Contact Info</h1>
+				<a href="mailto:elishagarris@gmail.com">Email Address</a>
+			</div>
+		</footer>
+
+		<!--Bootstrap Script-->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

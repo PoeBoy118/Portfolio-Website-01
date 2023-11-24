@@ -1,0 +1,55 @@
+.section_name {
+    background-color: red;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    color: white;
+    text-align: center;
+}
+
+div {
+    background-color: grey;
+    color: white;
+    /* margin: 20px; */
+}
+
+.main_heading {
+    background-color: red;
+    border-style: double;
+    border-width: 20px;
+    border-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+audio {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background-image: url(/Images/Tile_86.png);
+}
+
+.footer-extend {
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.about-me-extender {
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
