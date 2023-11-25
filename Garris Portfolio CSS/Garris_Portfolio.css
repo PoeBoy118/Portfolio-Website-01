@@ -1,8 +1,6 @@
 .section_name {
     background-color: red;
-    border-width: 5px;
-    border-color: black;
-    border-style: solid;
+    border: 5px black solid;
     color: white;
     text-align: center;
 }
@@ -10,26 +8,25 @@
 div {
     background-color: grey;
     color: white;
+    font-family: Vina Sans, Bastion, sans-serif;
     /* margin: 20px; */
 }
 
 .main_heading {
     background-color: red;
-    border-style: double;
-    border-width: 20px;
-    border-color: black;
+    border: 20px double black;
     color: white;
     text-align: center;
     margin: 20px;
+    font-family: Vina Sans, Bastion, sans-serif;
 }
 
 audio {
     display: none;
 }
 
-a {
-    text-decoration: none;
-    color: yellow;
+span {
+    color: rgb(230, 230, 116);
 }
 
 p {
@@ -46,10 +43,15 @@ body {
 }
 
 .about-me-extender {
-    margin-top: 50px;
+    margin-top: 20px;
     padding-top: 10px;
 }
 
 .hidden {
     display: none;
+}
+
+@font-face {
+    font-family: Vina Sans, Bastion, sans-serif;
+    src: url(/Fonts/VinaSans-Regular.ttf);
 }
